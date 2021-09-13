@@ -13,10 +13,8 @@ input {
  /* background-color: #73919b;   */
  background-color: #9256aa;  
  color: #e0b6e2;  
-
  /* pulls everything down to push up against bottom border */
  padding-bottom: 0;
- 
  /* creates solid line for the bottom border  */
  border-bottom: solid;
  border-bottom-color: #ccc;
