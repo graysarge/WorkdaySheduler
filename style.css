@@ -119,10 +119,10 @@ input {
 /* media query for screen size to be applied to center text to switch at same time as navbar */
 @media (max-width: 768px) {
  .container-fluid {
-   /* removes paddding on either side */
    padding-left: 0;
    padding-right: 0;
  }
+ 
  .plannerRow {
    height: 100%;
    border-radius: 10;

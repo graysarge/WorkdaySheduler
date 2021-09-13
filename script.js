@@ -25,10 +25,6 @@ $(document).ready(function() {
   // change description here - none
 
   const saveIcon = "./images/save-regular.svg"; 
-
-  // Get stored todos from localStorage
-  // Parsing the JSON string to an object
-  
   let storedPlans = JSON.parse(localStorage.getItem("storedPlans"));
 
   if (test) { console.log(storedPlans); }
