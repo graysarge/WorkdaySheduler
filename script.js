@@ -7,10 +7,12 @@ $(document).ready(function() {
   const now = moment().format('MMMM Do YYYY');
 
   // commented out for test in non-standard hours
+
   let nowHour24 = moment().format('H');
   let nowHour12 = moment().format('h');
 
   // set times for tesitng after hours
+
   if (test) {
     nowHour24 = 13;
     nowHour12 = 1;
@@ -21,10 +23,12 @@ $(document).ready(function() {
   
   // using font awesome icon https://fontawesome.com/license
   // change description here - none
+
   const saveIcon = "./images/save-regular.svg"; 
 
   // Get stored todos from localStorage
   // Parsing the JSON string to an object
+  
   let storedPlans = JSON.parse(localStorage.getItem("storedPlans"));
 
   if (test) { console.log(storedPlans); }
