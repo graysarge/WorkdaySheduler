@@ -81,11 +81,14 @@ $(document).ready(function() {
     $timeBoxSpn.text(`${displayHour} ${ampm}`);
 
     // insert into col inset into timebox
+
     $rowDiv.append($col2TimeDiv);
     $col2TimeDiv.append($timeBoxSpn);
+
     // STOP building Time box portion of row
 
     // START building input portion of row
+    
     // build row components
     let $dailyPlanSpn = $('<input>');
 
