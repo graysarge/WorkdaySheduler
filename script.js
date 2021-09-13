@@ -11,7 +11,7 @@ $(document).ready(function() {
   let nowHour24 = moment().format('H');
   let nowHour12 = moment().format('h');
 
-  // set times for tesitng after hours
+  // set times for testing after hours
 
   if (test) {
     nowHour24 = 13;
@@ -20,9 +20,6 @@ $(document).ready(function() {
 
   let $dateHeading = $('#navbar-subtitle');
   $dateHeading.text(now);
-  
-  // using font awesome icon https://fontawesome.com/license
-  // change description here - none
 
   const saveIcon = "./images/save-regular.svg"; 
   let storedPlans = JSON.parse(localStorage.getItem("storedPlans"));
